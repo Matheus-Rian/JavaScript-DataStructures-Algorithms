@@ -1,6 +1,6 @@
 // Classe Stack baseada em objeto
 
-class Stack {
+export class Stack {
   constructor () {
     this.items = {};
     this.count = 0

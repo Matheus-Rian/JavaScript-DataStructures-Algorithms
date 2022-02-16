@@ -6,7 +6,7 @@
 
 // * Criando uma classe Stack baseada em array
 
-class Stack {
+export class Stack {
   constructor () {
     this.items = [];
   }
@@ -16,7 +16,7 @@ class Stack {
   }
 
   pop() {
-    this.items.pop();
+    return this.items.pop();
   }
 
   peek() {
