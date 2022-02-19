@@ -22,7 +22,7 @@ class Queue {
     this.count++;
   }
 
-  dequeue(element) {
+  dequeue() {
 
     if (this.isEmpty())
       return undefined;
