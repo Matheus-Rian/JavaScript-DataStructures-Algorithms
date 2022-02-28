@@ -23,7 +23,6 @@ class Queue {
   }
 
   dequeue() {
-
     if (this.isEmpty())
       return undefined;
     
