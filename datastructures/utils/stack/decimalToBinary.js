@@ -1,4 +1,4 @@
-import { Stack } from "../stack/stack-array.js";
+import { Stack } from "../../stack/stack-array.js";
 
 function decimalToBinary(decNumber) {
   const remStack = new Stack();

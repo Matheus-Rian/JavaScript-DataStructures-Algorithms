@@ -1,4 +1,4 @@
-import { Stack } from "../stack/stack-array.js";
+import { Stack } from "../../stack/stack-array.js";
 
 function baseConverter(decNumber, base) {
   const remStack = new Stack();
