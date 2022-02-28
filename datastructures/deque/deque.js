@@ -9,7 +9,7 @@ A estrutura de dados de deque, também conhecida como fila de duas pontas(double
 ! que o deque combina as estruturas de dados de fila e de pilha.
 */
 
-class Deque {
+export class Deque {
   constructor() {
     this.count = 0;
     this.lowestCount = 0;

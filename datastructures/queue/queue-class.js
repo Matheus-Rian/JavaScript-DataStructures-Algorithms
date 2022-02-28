@@ -10,7 +10,7 @@ Exemplo: Uma fila na vida real(Filas no cinema, lanchonete...)
 
 */
 
-class Queue {
+export class Queue {
   constructor() {
     this.count = 0;
     this.lowestCount = 0;
