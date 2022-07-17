@@ -70,7 +70,6 @@ export class Queue {
 const queue = new Queue();
 console.log(queue.isEmpty());
 queue.enqueue('Matheus');
-queue.enqueue('Nataliane jaquinha mole');
 queue.enqueue('Rodriguinho do gera');
 queue.enqueue('Dannilo Marombeiro🔥');
 console.log(queue.toString());
